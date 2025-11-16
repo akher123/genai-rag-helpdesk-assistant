@@ -1,2 +1,3 @@
 # genai-rag-helpdesk-assistant
-<img width="460" height="711" alt="image" src="https://github.com/user-attachments/assets/0ecc8339-9bad-4fa3-b511-219a2b8d5b4d" />
+<img width="883" height="871" alt="image" src="https://github.com/user-attachments/assets/f7b359d1-a04e-4706-81c2-b5b42e15b003" />
+

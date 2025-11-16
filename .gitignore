@@ -416,3 +416,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/src/Api/GenAI.HelpDesk.Api/appsettings.Development.json
+/src/Api/GenAI.HelpDesk.Api/appsettings.json
+/src/Client/GenAI.HelpDesk.Client/appsettings.Development.json
+/src/Client/GenAI.HelpDesk.Client/appsettings.json

@@ -1,0 +1,86 @@
+Let's review how to submit sales reports into the CRM system. 
+Navigate to the Financials tab, then select Sales Report Upload. 
+Then fill out the form that you see on screen including the following fields.
+
+Choose the licensor from the list. 
+Here you will select for whom the report is for. 
+Do not select All as it can cause issues with validating your report.
+
+Licensee. 
+Select the licensee you are submitting the report for.
+
+Template. 
+Identify the name of the template you are submitting. 
+The standard template is called the Royalty Report. 
+Contact your system administrator for more information on which template to use.
+
+Contract. 
+Select the contract you are reporting against.
+
+Agent. 
+If applicable, select the agent listed on your contract.
+
+Data Entry Types. 
+You have three different options for Data Entry Type. 
+This field will designate how you will be inputting data into CRM. 
+
+The first option: Upload Sales Data File. 
+Choose this option if you have completed a sales report template and want to upload the data into CRM.
+
+Manual Entry. 
+Choose this option if you have a small amount of data and wish to enter the details manually.
+
+No Sales. 
+Choose this option if you do not have sales for the period you are reporting and need to enter a zero statement.
+
+Reporting Period. 
+Choose the dates that reflect the accounting cycle you are reporting for. 
+Today we are reporting for Q4 of 2024.
+
+Date Received. 
+This defaults to today's date. 
+You can change it by using the calendar option.
+
+Currency Type. 
+Select the currency your sales report is in. 
+Please note that your system administrator or contract may have communicated a currency you should be using.
+
+Currency Conversion. 
+This is a system setting dictated by the system administrator.
+
+Status will default to Created.
+
+Batch Number. 
+Enter a naming convention. 
+This is how the system will identify this specific sales report. 
+We recommend naming your sales report batch with the licensee name and period reported. 
+For example: Licensee Company Q4 2024.
+
+Notes section. 
+This is an optional field to enter any additional notes that should accompany your report. 
+These are informational only and will not impact anything within the report.
+
+Once the form is filled out, press Next. 
+If you chose a No Sales entry, the process is now complete.
+
+For a Manual Entry data type, press Next. 
+On the new screen, press Add New. 
+Fill in the information for each row of data you have, marking the checkbox at the end of each row once complete. 
+Once all rows have been entered, press Submit to finalize and send your report.
+
+Now, for the Upload Sales Data File option: 
+Select Upload Sales Data File, then press Next. 
+Use the Browse button to locate the sales report on your computer. 
+Once selected, press Upload. 
+On the next screen, verify the data that you uploaded, checking that the total figures on the right are what you intended them to be. 
+To edit any lines of data, press the Edit button. 
+To delete any lines, press the X button. 
+Once you’re happy with the data shown, press Submit.
+
+Your licensor will validate the information you submitted against the terms of your contract and will contact you with any questions or discrepancies.
+
+If you need extra information, press the Help button in the top right corner of your screen. 
+This will bring up all Help Guides and you can search for what you need. 
+For further assistance, contact your administrator.
+
+Thank you and have a great day.

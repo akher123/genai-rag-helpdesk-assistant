@@ -1,0 +1,56 @@
+Let's review how to manually add a new Product String into the CRM system.
+
+Product strings contain a four-level hierarchy from largest to smallest: product, category, subcategory, and article. 
+In this example, we will add an entirely new product string hierarchy. 
+You can also add to an existing product string at any level.
+
+To begin, create the Product Level. 
+Navigate to the IP & Products module. 
+Select the Product tab, then choose "Add New Product" from the submenu. 
+A new form appears. 
+Fill in all required fields, including the Product Name. 
+All other fields are optional. 
+Check with your administrator if you need to use these fields. 
+Press Save.
+
+Next, create the Category Level. 
+Select Product Categories from the submenu and press Add New. 
+A new form appears. 
+Fill in all required fields, including Category Name. 
+Check the "Show All Products" box to bring up a list of all products. 
+Check off all products that the category falls under. 
+Press Save.
+
+Now create the Subcategory Level. 
+Select Product Subcategories from the submenu and press Add New. 
+A new form appears. 
+Fill in all required fields, including Subcategory Name. 
+Check the "Show All Categories" box and select all categories that the subcategory falls under. 
+Categories also display their related product selections next to them. 
+All other fields are optional. 
+Press Save.
+
+Finally, create the Article Level. 
+Select Product Articles from the submenu and press Add New. 
+A new form appears. 
+Fill in all required fields, including Article Name. 
+Check the "Show All Subcategories" box and select all subcategories that the article falls under. 
+Both the category and product category will be listed next to them. 
+Press Save.
+
+To edit a listing at any product hierarchy level, click the pencil button. 
+To view a full existing product hierarchy, navigate to the Product Hierarchy tab in the submenu. 
+Find the product you are looking for and expand it to view all hierarchy levels.
+
+CRM also offers a Product String Template Upload function as an alternative way to load product strings into the system. 
+To use this feature, download the Product String Upload Template from the Help section in CRM. 
+Fill in the template, then navigate to IP & Products → Product → Upload Product String. 
+Here, you can upload your completed template.
+
+For more details about template upload, refer to the Product String Upload Help document located in the CRM Help section.
+
+If you need additional information, press the Help button in the top right corner of your screen. 
+This opens all available Help Guides, which you can search through. 
+For further assistance, contact your administrator.
+
+Thank you and have a great day.

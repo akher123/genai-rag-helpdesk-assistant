@@ -1,0 +1,28 @@
+Let's review how to add an IP into CRM.
+
+Navigate to the IP & Products module. 
+Press Add New IP and fill in the form on screen. 
+
+Required fields include Licensor — press the Add button to select a Licensor from the list, then press Done. 
+Another required field is Intellectual Property Primary ID, which can match your Intellectual Property name or be different. 
+Finally, required is the IP Type — press Add to select the IP type, then press Done. 
+All other fields are optional. 
+Press Save.
+
+After saving your IP, you can add an image by pressing the Plus button, selecting Choose File, picking the file from your drive, and pressing Go. 
+Once complete, you can close this screen. 
+
+You have now successfully added an IP to CRM. 
+The new IP will appear as an option when adding IPs within a contract for the selected licensor.
+
+CRM also offers a template upload function as an alternative way to load IPs and IP groups into the system. 
+To use this feature, download the IP Upload Template from the Help section, fill in the template, then navigate to IP & Products → IP Find/View → IP Upload. 
+Here, you can upload your completed template. 
+
+For more information, reference the IP Upload Help document located in the Help section of CRM.
+
+If you need extra information, press the Help button in the top right corner of your screen. 
+This opens all available Help Guides, which you can search for what you need. 
+For further assistance, contact your administrator.
+
+Thank you and have a great day.

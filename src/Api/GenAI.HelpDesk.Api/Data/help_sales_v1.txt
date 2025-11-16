@@ -1,0 +1,77 @@
+How Upload Sales Reports are also called Income Statements?
+
+Let's go over how to fill in a standard DRM Sales Report Template, which can later be uploaded into the DRM system. 
+In CRM, Sales Reports are also called Income Statements. 
+
+Please note that these templates can be customized, so your specific template may look different from what is shown here. 
+Contact your system administrator for a copy of your specific template and to understand which fields are required and which are optional. 
+
+Let's review the Standard Template. 
+On the screen, you can see an Excel sheet with column headings. 
+The headers in yellow are mandatory required fields. 
+The columns in this template must be kept in the same order you received them. 
+
+The first column is Transaction Date. 
+Enter the date when the transaction occurred. 
+Use two digits for the month, two digits for the day, and four digits for the year. 
+The date order depends on the format you have selected in the system.
+
+The next column is Transaction Type. 
+Enter one of the following types: Sale, Return, FOB Sale, FOB Return, Other Positive, Other Negative, or Promo. 
+Contact your system administrator if you are unsure which one to use.
+
+The next column is SKU. 
+Enter the SKU number or alternate SKU number for the item that was sold. 
+The SKU should match what was used when you submitted the item for approval. 
+Double-check for accurate reporting of the SKU number.
+
+The next column is Territory. 
+Enter the country where the transaction occurred.
+
+The next column is Sales Channel. 
+Enter the sales channel where the transaction occurred. 
+Examples include Mass Market or Closeout. 
+This field cannot be left blank. 
+If not defined, add N/A.
+
+The next column is Market. 
+Enter the market as the retailer where the transaction took place, such as Target or Marshalls. 
+This field cannot be left blank. 
+If not defined, add N/A.
+
+The next column is Units. 
+Enter the number of units sold or the number of units returned. 
+Never enter a negative number. 
+The system will automatically deduct based on the transaction type entered.
+
+The next columns are Suggested Retail Price, Wholesale, and Other Price. 
+These fields are optional. 
+You can enter the price per unit, but use only one of these columns based on the transaction and rate type you are using.
+
+The next column is Sales Amount. 
+Enter the total amount of sales or returns. 
+Do not enter a negative number. 
+The system will know to deduct based on the transaction type you’ve entered.
+
+The next column is Rate. 
+Enter the royalty rate that should be applied to this line. 
+Enter only the number. 
+For example, if the rate is 10%, enter 10.
+
+The next column is Rate Type. 
+Enter the rate type based on the terms of your agreement, such as percent of net sales. 
+It must be entered exactly as it appears in the system.
+
+The last column is Royalty Amount. 
+Enter the total royalty amount due here. 
+Do not enter a negative number. 
+The system will know to deduct based on the transaction type you’ve chosen.
+
+Once all required columns have been filled out for each row of transaction data, you are ready to upload the report to CRM. 
+You can find another Help Video on how to upload the sales report into CRM.
+
+If you need more information, press the Help button in the top right corner of your screen. 
+This will open all available Help Guides, which you can search. 
+For further assistance, contact your administrator.
+
+Thank you and have a great day.

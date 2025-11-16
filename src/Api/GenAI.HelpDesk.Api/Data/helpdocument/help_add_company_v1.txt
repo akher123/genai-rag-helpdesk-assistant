@@ -1,0 +1,23 @@
+Let's review how to add a new company into CRM.
+
+Navigate to Companies & Contacts. Press Add New Company. Fill in the form that appears. 
+Required and recommended fields include Company Name, Company Status. This field will default to Active. You can use the drop-down to select different statuses. 
+
+Another required and recommended field is Business Category. Press Add to add the Business Category. Select it from the drop-down and press Done. 
+Enter in a Phone Number and an Address for the company, making sure to enter the correct Country and all required data for the Address. 
+All other fields on the form are optional.
+
+Check the Owned button if this Company owns the CRM system, and if the Company's name should be listed on invoices. 
+When you're finished entering the Company information, press Save. 
+
+After saving, the screen will refresh and you can view the listing by searching for the company. Use the Search By Company Name, type in the company name, and press the magnifying glass. The Company will then appear.
+
+After saving the initial form, you can also add the Company's logo. Press the Pencil button, locate the Company Logo section, press the Plus button, then press Choose File. Select an image from your drive, press Open, then press Go. The Company Logo will now be saved. You can close this screen.
+
+To edit Company, press the Pencil button. To delete a Company, press the X button or the three dots icon. This will take you to the Company Details page, where you can view the Contacts, Contracts, and IPs assigned to the company. The Person button allows you to add a new contact for that Company, which is covered in a separate video.
+
+CRM also offers a template upload function as an alternative way of loading Companies and Contacts into the system. To utilize this feature, download the Company and Contact Upload Template from the Help section, fill in the template, and navigate to Companies & Contacts, Import, to upload your template. For more information on uploading the template, reference the Companies & Contacts Upload Help document located in the Help section.
+
+Hope you enjoyed the video. If you need extra information, press the Help button in the top right corner of your screen. This will bring up all of our help guides, which you can search for what you need. For further assistance, contact your administrator. 
+
+Thank you and have a great day.

@@ -1,0 +1,37 @@
+Let's review how to add an IP Group into CRM.
+
+Creating an IP Group allows you to group multiple IPs together, making it faster and easier to add them to contracts.
+
+Navigate to the IP & Products module. 
+Select IP Find/View, then select IP Hierarchy. 
+Press Add New IP Group. 
+In the new window, fill out the form. 
+Required fields include Licensor — press the Add button to select a licensor from the list, then press Done. 
+The other required field is the IP Group Name. 
+All other fields and tabs are optional. 
+Press Save.
+
+To verify your new group, search for it by selecting Search by IP Group Name and typing the group name. 
+Press the magnifying glass icon to bring up your IP Group on screen.
+
+Press the pencil button to edit the group, then navigate to the Components tab to add individual IPs into the group you created. 
+Please note that individual IPs must already exist in the system before they can be added to a group.
+
+Press Assign IPs to Selected IP Group. 
+Select the IPs that should be added by checking them off, then press Add IPs. 
+Return to the Components tab to see the IPs you added listed in the table. 
+To delete an IP, press the X button. 
+Once finished, press Save.
+
+CRM also offers a template upload function as an alternative way to load IPs and IP groups into the system. 
+To use this feature, download the IP Upload Template from the Help section in CRM. 
+Fill in the template, then navigate to IP & Product → IP Find/View → IP Upload. 
+Here, you can upload your completed template.
+
+For more information, reference the IP Upload Help document located in the Help section of CRM.
+
+If you need additional information, press the Help button in the top right corner of your screen. 
+This opens all Help Guides, which you can search for what you need. 
+For further assistance, contact your administrator.
+
+Thank you and have a great day.

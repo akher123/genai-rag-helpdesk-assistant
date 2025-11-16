@@ -1,0 +1,39 @@
+Let's review how to add a contact into CRM.
+
+Navigate to Companies & Contacts. 
+Search for the Company you wish to add a Contact to by typing the Company Name and pressing the magnifying glass. 
+The Company will appear.
+
+Press the Person button to add a Contact. In the new window, fill out the form. 
+Required and recommended fields include First Name, Last Name, and Email Address. 
+All other fields are optional.
+
+If the contact will be a user of the CRM system, check the Is System User box, then select if the user is Internal or External. 
+Select the appropriate Contract Access from the drop-down.
+
+Once you've saved a System User, CRM will automatically populate the Authentication ID. 
+If a new user has trouble signing in and the Authentication ID is blank, press Save again to reload the ID.
+
+Finish up Contact Entry by pressing Save. 
+The new user will now appear in the company listing.
+
+If the Contact is a CRM system user, continue setting up their account by pressing the Pencil button. 
+To edit information, press the Security tab. 
+Select the General Access drop-down to decide whether the user should have Defined by Administrator access or Full Access. 
+If Defined by Administrator, use the drop-down next to Apply Settings from User Group to select the Security group access the user should have, then press Add to Group. 
+Press OK on the pop-up, then close the window.
+
+To make additional edits to the Contact, press the Pencil button. 
+To delete the Contact, press the X button. 
+Note that a Contact cannot be deleted once they are made a system user. 
+Instead, deactivate the Contact by pressing Edit, selecting Inactive under Status, and pressing Save. 
+This removes login privileges and the user will change to Inactive on the screen.
+
+For further information on adding users and setting securities, please use the Help documents located in the Help section.
+
+Hope you enjoyed the video. 
+If you need extra information, press the Help button in the top right corner of your screen. 
+This will bring up all help guides, which you can search for what you need. 
+For further assistance, contact your administrator. 
+
+Thank you and have a great day.

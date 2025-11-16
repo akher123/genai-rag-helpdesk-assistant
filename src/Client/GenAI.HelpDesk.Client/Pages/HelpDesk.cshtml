@@ -1,0 +1,106 @@
+﻿@page 
+@model GenAI.HelpDesk.Client.Pages.HelpDeskModel
+@{
+    ViewData["Title"] = "Help Desk Asistance";
+}
+
+<div class="container-fluid p-0 m-0">
+    <div class="row g-0 min-vh-100 justify-content-center align-items-center bg-light">
+        <div class="col-12 col-lg-10 col-xl-8">
+            <div class="card shadow-lg border-0 rounded-4" style="height: 90vh; display:flex; flex-direction:column;">
+
+                <!-- Header -->
+                <div class="card-header text-white rounded-top-4 py-3 px-4"
+                     style="background: linear-gradient(90deg, #4b6cb7, #182848);">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+                        <h4 class="mb-2 mb-md-0 fw-bold">💬 Help Desk Q&A Assistant</h4>
+                        <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <span class="badge bg-light text-dark">AI Powered</span>
+                            <form method="post" asp-page-handler="ClearChat" class="m-0 p-0">
+                                <button type="submit" class="btn btn-light btn-sm">
+                                    🔄 Clear Chat
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat Body -->
+                <div id="chat-container" class="card-body flex-grow-1 overflow-auto p-3"
+                     style="scroll-behavior: smooth; display:flex; flex-direction:column; gap:0.5rem;">
+                    @if (Model.ChatHistory.Any())
+                    {
+                        @foreach (var msg in Model.ChatHistory)
+                        {
+                            if (msg.Sender == "user")
+                            {
+                                <div class="d-flex justify-content-end mb-3">
+                                    <div class="p-3 rounded-4 text-white" style="background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%); max-width: 75%; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+                                        <strong class="d-block mb-1">Question:</strong>
+                                        <div>@msg.Message</div>
+                                    </div>
+                                </div>
+
+                            }
+                            else
+                            {
+                                <div class="d-flex justify-content-start mb-3">
+                                    <div class="p-3 rounded-4 bg-white border shadow-sm" style="max-width:98%;">
+                                        <strong class="d-block mb-2 text-primary">Answer:</strong>
+
+                                        <pre class="bg-dark text-light p-3 rounded mt-2" style="overflow-x: auto;">@msg.Message</pre>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-muted text-center mt-3 fs-6">
+                            Start by asking a question How create IP,IP Group,Contract,Company:<br />
+                            <em>"How to upload sales in crm system?"</em>
+                        </p>
+                    }
+                </div>
+
+                <!-- Footer / Input -->
+                <div class="card-footer bg-light rounded-bottom-4 p-3" style="border-top:1px solid #dee2e6;">
+                    <form id="questionForm" method="post" class="d-flex gap-2 align-items-center">
+                        <input asp-for="UserQuestion" class="form-control rounded-pill"
+                               placeholder="Type your question..." autocomplete="off" />
+                        <button type="submit" class="btn btn-primary rounded-pill px-4 d-flex align-items-center" id="sendButton">
+                            <span id="sendText">Send</span>
+                            <span id="spinner" class="spinner-border spinner-border-sm ms-2" role="status" style="display:none;" aria-hidden="true"></span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Show loading indicator on form submit
+        const form = document.getElementById("questionForm");
+        const sendButton = document.getElementById("sendButton");
+        const spinner = document.getElementById("spinner");
+        const sendText = document.getElementById("sendText");
+
+        form.addEventListener("submit", function () {
+            spinner.style.display = "inline-block";
+            sendText.textContent = "Sending...";
+            sendButton.disabled = true;
+        });
+
+        // Auto-scroll chat to bottom on load
+        const scrollChatToBottom = () => {
+            const container = document.getElementById('chat-container');
+            if (container) container.scrollTop = container.scrollHeight;
+        };
+
+        window.addEventListener('load', scrollChatToBottom);
+        window.addEventListener('DOMNodeInserted', scrollChatToBottom);
+    </script>
+}
